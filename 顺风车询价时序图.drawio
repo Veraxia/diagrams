@@ -1,1 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T10:52:26.377Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="PE264BhWLsvqGRFwquRP" version="20.6.0" type="device"><diagram id="Vq-S5b-R2pcWZ0m__wl8" name="第 1 页">ddHNEoIgEADgp+GuUJln+7t08tCZkU2YQddBGq2nT2c1Y6wLs3y7sPwwkVX92clGX1GBZTxSPRMHxnmaJMM4wpNgG28ISmcUUbxAbl4wYTTpwyhog0KPaL1pQiywrqHwgUnnsAvL7mjDro0sYQV5Ie1ab0Z5TbrnyeIXMKWeO8e7lDKVnIunm7RaKuy+SByZyByip6jqM7Dj283vQutOf7Kfgzmo/Y8FQ7DsPUyCDxLHNw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-05T12:01:43.329Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="PGHcF6W0UrSguKmuQ8yq" version="20.6.0" type="github">
+  <diagram id="Vq-S5b-R2pcWZ0m__wl8" name="第 1 页">
+    <mxGraphModel dx="888" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-27" value="顺风车询价&amp;amp;下单流程图" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="60" width="830" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-28" value="订前restful" style="swimlane;startSize=20;html=1;shadow=0;" vertex="1" parent="KoB_h3ZXt6w1ansh5dAF-27">
+          <mxGeometry y="20" width="160" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-37" value="询价" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;shadow=0;" vertex="1" parent="KoB_h3ZXt6w1ansh5dAF-28">
+          <mxGeometry x="30" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-40" value="结束" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start;shadow=0;" vertex="1" parent="KoB_h3ZXt6w1ansh5dAF-28">
+          <mxGeometry x="20" y="490" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-29" value="售卖" style="swimlane;startSize=20;html=1;shadow=0;" vertex="1" parent="KoB_h3ZXt6w1ansh5dAF-27">
+          <mxGeometry x="160" y="20" width="270" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-38" value="请求OTA获取报价" style="html=1;dashed=0;whitespace=wrap;shadow=0;" vertex="1" parent="KoB_h3ZXt6w1ansh5dAF-29">
+          <mxGeometry x="101" y="70" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KoB_h3ZXt6w1ansh5dAF-29" source="KoB_h3ZXt6w1ansh5dAF-41" target="KoB_h3ZXt6w1ansh5dAF-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-41" value="是否有报价" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;shadow=0;" vertex="1" parent="KoB_h3ZXt6w1ansh5dAF-29">
+          <mxGeometry x="110" y="170" width="81" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KoB_h3ZXt6w1ansh5dAF-29" source="KoB_h3ZXt6w1ansh5dAF-44" target="KoB_h3ZXt6w1ansh5dAF-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-44" value="生成prdRef，缓存报价信息" style="html=1;dashed=0;whitespace=wrap;shadow=0;whiteSpace=wrap;" vertex="1" parent="KoB_h3ZXt6w1ansh5dAF-29">
+          <mxGeometry x="101" y="277" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-46" value="构建产品列表" style="html=1;dashed=0;whitespace=wrap;shadow=0;" vertex="1" parent="KoB_h3ZXt6w1ansh5dAF-29">
+          <mxGeometry x="101" y="372" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-30" value="OTA" style="swimlane;startSize=20;html=1;shadow=0;" vertex="1" parent="KoB_h3ZXt6w1ansh5dAF-27">
+          <mxGeometry x="430" y="20" width="230" height="820" as="geometry">
+            <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-39" value="查询哈喽获取报价" style="html=1;dashed=0;whitespace=wrap;shadow=0;" vertex="1" parent="KoB_h3ZXt6w1ansh5dAF-30">
+          <mxGeometry x="40" y="70" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-31" value="用户订单" style="swimlane;startSize=20;html=1;shadow=0;" vertex="1" parent="KoB_h3ZXt6w1ansh5dAF-27">
+          <mxGeometry x="660" y="20" width="170" height="820" as="geometry">
+            <mxRectangle x="360" y="20" width="40" height="530" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KoB_h3ZXt6w1ansh5dAF-27" source="KoB_h3ZXt6w1ansh5dAF-38" target="KoB_h3ZXt6w1ansh5dAF-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoB_h3ZXt6w1ansh5dAF-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KoB_h3ZXt6w1ansh5dAF-27" source="KoB_h3ZXt6w1ansh5dAF-39" target="KoB_h3ZXt6w1ansh5dAF-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
