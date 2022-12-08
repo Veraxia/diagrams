@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T09:49:31.684Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" version="20.6.0" etag="0cQpNTvG_1arOIIUzrqC" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-08T10:05:05.610Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" version="20.6.0" etag="wmOINkePlzszYAubLBLR" type="github">
   <diagram id="5W3k-MWVgs_EtNKqmHIO" name="第 1 页">
     <mxGraphModel dx="1028" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0n-BRvnXpGLrMGBa8j9X-11" value="更新booking缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0n-BRvnXpGLrMGBa8j9X-32">
-          <mxGeometry x="255" y="717" width="100" height="60" as="geometry" />
+          <mxGeometry x="255" y="710" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0n-BRvnXpGLrMGBa8j9X-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="0n-BRvnXpGLrMGBa8j9X-32" source="0n-BRvnXpGLrMGBa8j9X-39" target="0n-BRvnXpGLrMGBa8j9X-40">
           <mxGeometry relative="1" as="geometry" />
@@ -118,11 +118,11 @@
         <mxCell id="0n-BRvnXpGLrMGBa8j9X-65" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0n-BRvnXpGLrMGBa8j9X-32">
           <mxGeometry x="285" y="570" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0n-BRvnXpGLrMGBa8j9X-34" value="触发修改订单的流程：&lt;br&gt;1、切换拼单模式；&lt;br&gt;2、修改联系人。&amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="0n-BRvnXpGLrMGBa8j9X-34" value="触发修改订单的流程：&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;1、切换拼单模式；&lt;br&gt;2、修改联系人。&lt;/font&gt;&amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#FF0000;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="580" y="150" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0n-BRvnXpGLrMGBa8j9X-66" value="booking中的内容：&lt;br&gt;1、出发地址；&lt;br&gt;2、到达地址；&lt;br&gt;3、最早时间；&lt;br&gt;4、最晚时间；&lt;br&gt;5、人数；&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;6、联系人。&amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="570" y="240" width="160" height="220" as="geometry" />
+        <mxCell id="0n-BRvnXpGLrMGBa8j9X-66" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;booking内容：&amp;nbsp;&lt;/font&gt;&lt;/b&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;询价条件：&lt;font color=&quot;#000000&quot;&gt;出发地址，到达地址，最早时间，最晚时间，人数。&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;br&gt;商品相关：&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;商品produckMark，拼单模式 ，取消规则。&lt;/font&gt;&lt;br&gt;其他：&lt;font color=&quot;#000000&quot;&gt;联系人&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;labelBackgroundColor=default;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="580" y="230" width="160" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
